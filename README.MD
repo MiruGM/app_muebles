@@ -1,4 +1,4 @@
-a. Enlace a GitHub: 
+a. Enlace a GitHub: https://github.com/MiruGM/app_muebles
 
 b. Datos para la conexión a la base de datos (nombre de la base de datos, usuario y password): 
     basedatos => app_mevak
