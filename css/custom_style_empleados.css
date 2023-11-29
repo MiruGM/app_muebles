@@ -1,0 +1,62 @@
+/*Tipografías*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+form,
+#resultadoBusquedas {
+    display: none;
+}
+
+#formularios {
+    margin-top: 60px;
+}
+
+.boldRegularFont {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+.titleFont {
+    font-family: 'Agbalumo', sans-serif;
+}
+
+/*Colores*/
+:root {
+    --bs-primary: #5C9494;
+    --bs-primary-dark: #386C6C;
+    --bs-secondary: #FFEBC3;
+    --bs-secondary-subtle: #FFF8E9;
+    --bs-info: #F79A9A;
+    --bs-info-dark: #B55D5D;
+  }
+ 
+  .navbar-dark {
+    background-color: var(--bs-primary) !important;
+  }
+
+  .btn-primary {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+  }
+
+  .btn-primary:hover {
+    background-color: var(--bs-primary-dark) !important;
+    border-color: var(--bs-primary-dark) !important;
+  }
+
+  .btn-danger {
+    background-color: var(--bs-info) !important;
+    border-color: var(--bs-info) !important;
+  }
+
+  .btn-danger:hover {
+    background-color: var(--bs-info-dark) !important;
+    border-color: var(--bs-info-dark) !important;
+  }
